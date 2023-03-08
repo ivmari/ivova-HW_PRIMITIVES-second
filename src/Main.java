@@ -4,7 +4,6 @@ public class Main {
         int initialamount = 100; // начальная сумма
         int replenishmentamount = 1100; // сумма пополнения
         int bonus = replenishmentamount / 100;
-        int finalamount = initialamount + replenishmentamount + bonus;
 
         if (replenishmentamount <= 1000) {
             System.out.println("Количество начисленных бонусов: 0");
